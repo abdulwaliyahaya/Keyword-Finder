@@ -30,5 +30,5 @@ headers = {
     "Connection": "keep-alive"
 }
 proxies = {
-    "http": "http://lum-customer-c_c8f3d50f-zone-residential-country-us:70aa793615a1@zproxy.lum-superproxy.io:22225"
+    "http": ""
 }

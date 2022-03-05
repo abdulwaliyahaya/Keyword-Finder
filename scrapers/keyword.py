@@ -29,6 +29,7 @@ class KeywordScraper:
             questions = question_container.find_all("div", {"class": ["wQiwMc", "ygGdYd", "related-question-pair"]})
             for question in questions:
                 i = question.find("span").text
+                print(i)
         else:
             pass
 
@@ -39,6 +40,6 @@ class KeywordScraper:
                 questions = div.find_all("a", {"class": ["k8XOCe", "R0xfCb", "VCOFK","s8bAkb"]})
                 for question in questions:
                     i = question.find("div", {"class": ["s75CSd", "OhScic","AB4Wff"]}).text
-
+                    print(i)
     def scrape_auto_complete(self):
         pass
